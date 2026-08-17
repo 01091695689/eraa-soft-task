@@ -1,0 +1,1783 @@
+.hero-page-wrapper {
+  background-color: #f4f6f9;
+  direction: rtl;
+  font-family: 'Cairo', sans-serif;
+  padding: 40px 0;
+  width: 100%;
+}
+
+.hero-main-container {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* الناحية اليمين */
+.hero-text-content {
+  width: 48%;
+  text-align: right;
+}
+
+.hero-text-content h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 75px;
+  color: #111827;
+  margin-bottom: 5px;
+}
+
+.rocket-icon {
+  color: #2563eb;
+}
+
+.hero-text-content p {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #6b7280;
+  margin-bottom: 25px;
+}
+
+.hero-btn {
+  display: inline-block;
+  background-color: #1e3a8a;
+  color: white;
+  padding: 14px 45px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 8px 20px rgba(30, 58, 138, 0.2);
+}
+
+/* الناحية الشمال (الصورة) */
+.hero-image-box {
+  position: relative;
+  width: 48%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.purple-bg-arch {
+  position: absolute;
+  width: 320px;
+  height: 440px;
+  background-color: #dbeafe;
+  border-radius: 160px 160px 20px 20px;
+  top: 20px;
+  left: 30%;
+  z-index: 1;
+}
+
+.person-img {
+  position: relative;
+  width: 310px;
+  height: 440px;
+  object-fit: cover;
+  z-index: 2;
+  border-radius: 0 0 20px 20px;
+}
+
+/* الكروت العائمة */
+.float-card {
+  position: absolute;
+  background: white;
+  padding: 10px 14px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 5;
+}
+
+.card-1 { top: 50px; right: 10px; }
+.card-2 { top: 180px; left: -10px; }
+.card-3 { bottom: 30px; left: 80px; }
+
+.icon-wrap {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.blue { background-color: #e0f2fe; color: #0284c7; }
+.orange { background-color: #ffedd5; color: #ea580c; }
+.pink { background-color: #fce7f3; color: #db2777; }
+
+.float-card strong {
+  font-size: 12px;
+  color: #111827;
+  display: block;
+}
+
+.float-card p {
+  margin: 0;
+  font-size: 10px;
+  color: #6b7280;
+}
+
+/* الأربع كروت السفلية جنب بعض */
+.features-row {
+  width: 1140px;
+  margin: 50px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.feature-item {
+  background: white;
+  width: 270px;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  text-align: center;
+}
+
+.feat-icon {
+  width: 55px;
+  height: 55px;
+  background-color: #eff6ff;
+  color: #2563eb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  margin: 0 auto 20px auto;
+}
+
+.feature-item h3 {
+  font-size: 18px;
+  color: #111827;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 12px;
+  color: #6b7280;
+  line-height: 1.6;
+  margin: 0;
+}
+.landing-unique-about-wrapper {
+  background-color: #f8fafc;
+  direction: rtl;
+  font-family: 'Cairo', sans-serif;
+  padding: 80px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.landing-unique-about-container {
+  width: 1140px;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* تنسيقات النصوص الفريدة */
+.landing-unique-text-content {
+  width: 50%;
+  text-align: right;
+}
+
+.landing-unique-tag {
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.landing-unique-text-content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.landing-unique-text-content p {
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.landing-unique-cta-btn {
+  display: inline-block;
+  background-color: #1e3a8a;
+  color: white;
+  padding: 12px 35px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0 8px 20px rgba(30, 58, 138, 0.2);
+}
+
+/* كود الصورة بتاعك بمعرفات فريدة 100% عشان ميبوظش الصفحة التانية */
+.landing-unique-image-placeholder {
+  width: 100%;
+  max-width: 420px;
+  height: 340px;
+  background-color: #e2e8f0;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; 
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
+}
+
+.landing-unique-image-placeholder:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(30, 58, 138, 0.15);
+}
+
+.landing-unique-image-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.landing-unique-image-placeholder:hover img {
+  transform: scale(1.08);
+}
+
+/* ================= إعدادات عامة للـ Landing ================= */
+.landing-page-main {
+  width: 100%;
+  overflow-x: hidden;
+  direction: rtl;
+  font-family: 'Cairo', sans-serif;
+}
+
+/* ================= تنسيقات سكشن الـ About ================= */
+.landing-unique-about-wrapper {
+  background-color: #f8fafc;
+  padding: 80px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.landing-unique-about-container {
+  width: 1140px;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-unique-text-content {
+  width: 50%;
+  text-align: right;
+}
+
+.landing-unique-tag {
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.landing-unique-text-content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.landing-unique-text-content p {
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.landing-unique-cta-btn {
+  display: inline-block;
+  background-color: #1e3a8a;
+  color: white;
+  padding: 12px 35px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0 8px 20px rgba(30, 58, 138, 0.2);
+}
+
+.landing-unique-image-placeholder {
+  width: 100%;
+  max-width: 420px;
+  height: 340px;
+  background-color: #e2e8f0;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; 
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-unique-image-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ================= تنسيقات سكشن شركاء النجاح (بدون سكرول) ================= */
+.landing-unique-partners-wrapper {
+  background-color: #ffffff;
+  padding: 60px 0 80px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.landing-unique-partners-container {
+  width: 1140px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.landing-unique-partners-header {
+  text-align: right;
+  margin-bottom: 40px;
+}
+
+.landing-unique-partners-subtitle {
+  color: #3b82f6;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.landing-unique-partners-subtitle::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -4px;
+  width: 40px;
+  height: 2px;
+  background-color: #3b82f6;
+}
+
+.landing-unique-partners-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.landing-unique-partners-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+
+.landing-unique-partner-logo {
+  flex: 1;
+  min-width: 100px;
+  max-width: 140px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.landing-unique-partner-logo:hover {
+  opacity: 1;
+}
+
+.landing-unique-partner-logo img {
+  max-width: 100%;
+  max-height: 50px;
+  object-fit: contain;
+}
+
+/* ================= تنسيقات سكشن الـ Courses ================= */
+.landing-unique-courses-wrapper {
+  background-color: #f8fafc;
+  padding: 80px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.landing-unique-courses-container {
+  width: 1140px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.landing-unique-courses-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.landing-unique-title-group {
+  text-align: right;
+}
+
+.landing-unique-subtitle {
+  color: #3b82f6;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.landing-unique-subtitle::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -4px;
+  width: 40px;
+  height: 2px;
+  background-color: #3b82f6;
+}
+
+.landing-unique-title-group h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.landing-unique-all-btn {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0 8px 20px rgba(30, 58, 138, 0.2);
+}
+
+.landing-unique-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.landing-unique-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.landing-unique-card-content {
+  padding: 30px 25px 20px 25px;
+  text-align: right;
+}
+
+.landing-unique-card-content h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 12px;
+}
+
+.landing-unique-card-content p {
+  font-size: 13px;
+  color: #6b7280;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.landing-unique-meta {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  font-size: 13px;
+  color: #4b5563;
+  border-top: 1px solid #f3f4f6;
+  padding-top: 15px;
+}
+
+.landing-unique-meta .meta-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.landing-unique-meta i {
+  color: #3b82f6;
+  font-size: 12px;
+}
+
+.landing-unique-meta i.fa-star {
+  color: #eab308;
+}
+
+/* تنسيق وتصغير الصور داخل الكروت الملونة */
+.landing-unique-card-media {
+  width: 100%;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.landing-unique-card-media img {
+  max-width: 85%;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ألوان الخلفيات لكروت الكورسات */
+.card-bg-blue { 
+    background-color: #7dd3fc;
+ }
+.card-bg-purple {
+     background-color: #6366f1; 
+    }
+.card-bg-red {
+     background-color: #e11d48;
+     }
+.card-bg-yellow {
+     background-color: #fde047;
+     }
+.card-bg-dark-blue {
+     background-color: #1e3a8a;
+     }
+.card-bg-orange {
+     background-color: #fb923c;
+    }
+    .featured-section {
+  background-color: #dbe4f0; /* نفس لون خلفية الساكشن في الصورة */
+  padding: 60px 40px;
+  direction: rtl;
+  font-family: inherit;
+}
+
+.featured-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto 40px auto;
+}
+
+.featured-titles {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.featured-titles h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 8px;
+}
+
+.featured-titles span {
+  font-size: 14px;
+  color: #444;
+  position: relative;
+}
+
+/* الخط اللي على يمين كلمة أشهر الدورات زي الصورة بالضبط */
+.featured-titles span::after {
+  content: "";
+  position: absolute;
+  left: -60px;
+  top: 50%;
+  width: 45px;
+  height: 1px;
+  background-color: #3b5998;
+}
+
+.featured-view-all-btn {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.2);
+}
+
+.featured-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.featured-card {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 570px;
+  padding: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+/* الأيقونة الدوائرية الصغيرة فوق الكارت على اليمين */
+.card-badge {
+  position: absolute;
+  top: -15px;
+  right: 25px;
+  width: 50px;
+  height: 50px;
+  background: #1e1e1e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border: 3px solid #fff;
+}
+
+.card-badge img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+
+.card-right {
+  flex: 1;
+  text-align: right;
+  padding-left: 20px;
+}
+
+.card-right h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 15px;
+}
+
+.card-right p {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.card-meta {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 13px;
+  color: #555;
+}
+
+.card-meta span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.card-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 150px;
+  border-right: 1px solid #eaeaea;
+  padding-right: 25px;
+}
+
+.course-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1e3a8a;
+}
+
+.subscribe-btn {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.subscribe-btn:hover {
+  background-color: #1e40af;
+}
+
+.cloud-shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 90px;
+  height: 45px;
+  background: #b5c7e0;
+  border-top-right-radius: 40px;
+  opacity: 0.6;
+}
+.instructors-section {
+  background-color: #dbe4f0;
+  padding: 80px 50px;
+  direction: rtl;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  font-family: inherit;
+  overflow: hidden;
+  flex-direction: row-reverse; /* بيخلي الصور على الشمال والكلام على اليمين تماماً */
+}
+
+/* 1. الناحية الشمال: كروت المدربين وصورتها */
+.instructors-slider-area {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.instructors-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  width: 100%;
+  overflow: visible;
+}
+
+.instructor-card {
+  background: #e6dfd5;
+  border-radius: 24px;
+  width: 260px;
+  height: 380px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.instructor-img-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 270px;
+  overflow: hidden;
+}
+
+.instructor-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.instructor-info-box {
+  background: #ffffff;
+  margin: 12px;
+  padding: 18px 12px;
+  border-radius: 16px;
+  text-align: center;
+  z-index: 2;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.instructor-info-box h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 12px;
+}
+
+.instructor-meta {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 11px;
+  color: #555;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 10px;
+}
+
+.instructor-meta span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.instructor-meta i {
+  color: #1e3a8a;
+  font-size: 11px;
+}
+
+/* مؤشر النقاط تحت الكروت */
+.slider-dots-line {
+  display: flex;
+  gap: 8px;
+  margin-top: 30px;
+}
+
+.slider-dots-line span {
+  width: 8px;
+  height: 8px;
+  background-color: #a3b4cc;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.slider-dots-line span.active {
+  width: 32px;
+  border-radius: 10px;
+  background-color: #1e3a8a;
+}
+
+/* 2. الناحية اليمين: النصوص والعناوين والزرار */
+.instructors-content {
+  flex: 1;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.instructors-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.instructors-titles span {
+  font-size: 14px;
+  color: #444;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+/* الخط اللي على يمين كلمة "مدربين ايراسوفت" */
+.instructors-titles span::after {
+  content: "";
+  position: absolute;
+  left: -60px;
+  top: 50%;
+  width: 45px;
+  height: 1px;
+  background-color: #3b5998;
+}
+
+.instructors-titles h2 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #111;
+  line-height: 1.4;
+  text-align: right;
+}
+
+.instructors-desc {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  max-width: 450px;
+  text-align: right;
+}
+
+.instructors-btn {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 14px 40px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 4px 15px rgba(30, 58, 138, 0.25);
+  margin-bottom: 35px;
+}
+
+.content-grid-dots {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  opacity: 0.4;
+}
+
+.content-grid-dots span {
+  width: 6px;
+  height: 6px;
+  background-color: #7188aa;
+  border-radius: 50%;
+  display: inline-block;
+}
+.testimonials-section {
+  background-color: #f2f2f5;
+  padding: 80px 40px;
+  direction: rtl;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  font-family: inherit;
+  gap: 20px;
+}
+
+/* 1. الناحية اليمين: الكلام والعناوين */
+.testimonials-text-side {
+  flex: 1.1;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 2;
+}
+
+.testimonials-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.subtitle::after {
+  content: "";
+  position: absolute;
+  left: -60px;
+  top: 50%;
+  width: 45px;
+  height: 1px;
+  background-color: #3b5998;
+}
+
+.testimonials-titles h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #111;
+  line-height: 1.35;
+  text-align: right;
+}
+
+.desc {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.8;
+  max-width: 400px;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.chat-decor-area {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+
+.chat-icon-top {
+  color: #2563eb;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.dots-grid-bottom {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 6px;
+  opacity: 0.5;
+}
+
+.dots-grid-bottom span {
+  width: 6px;
+  height: 6px;
+  background-color: #7188aa;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* 2. المنتصف: الصورة والشرائط الملونة خلفها */
+.testimonials-center-image-area {
+  flex: 0.8;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  z-index: 3;
+}
+
+.decor-stripes-bg {
+  position: absolute;
+  display: flex;
+  gap: 8px;
+  transform: rotate(-25deg);
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.decor-stripes-bg .stripe {
+  width: 12px;
+  height: 180px;
+  background: linear-gradient(to bottom, #a5f3fc, #93c5fd, #ddd6fe);
+  border-radius: 10px;
+}
+
+.main-student-img-box {
+  position: relative;
+  width: 180px;
+  height: 230px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #e5dccb;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.main-student-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.quote-box {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #1e3a8a;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+/* 3. الناحية الشمال: كارت التقييم والنقاط */
+.testimonials-card-side {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.testimonial-card {
+  background: #ffffff;
+  border-radius: 24px;
+  width: 100%;
+  max-width: 500px;
+  padding: 40px 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  text-align: right;
+}
+
+.testimonial-info h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.testimonial-stars {
+  color: #1e3a8a;
+  font-size: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  gap: 4px;
+}
+
+.testimonial-info p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.8;
+}
+
+.slider-dots-line {
+  display: flex;
+  gap: 8px;
+  margin-top: 25px;
+}
+
+.slider-dots-line span {
+  width: 8px;
+  height: 8px;
+  background-color: #b0bed5;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.slider-dots-line span.active {
+  width: 28px;
+  border-radius: 10px;
+  background-color: #1e3a8a;
+}
+
+.articles-section {
+  background-color: #f2f2f5;
+  padding: 80px 50px;
+  direction: rtl;
+  font-family: inherit;
+}
+
+.articles-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.view-all-btn {
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.view-all-btn:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.articles-title-group {
+  text-align: right;
+  position: relative;
+}
+
+.articles-subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.articles-subtitle::after {
+  content: "";
+  position: absolute;
+  left: -55px;
+  top: 50%;
+  width: 45px;
+  height: 1px;
+  background-color: #3b5998;
+}
+
+.articles-main-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #111;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.article-card {
+  background: #ffffff;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.article-img-box {
+  width: 100%;
+  height: 210px;
+  overflow: hidden;
+}
+
+.article-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.article-card:hover .article-img-box img {
+  transform: scale(1.05);
+}
+
+.article-content {
+  padding: 25px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.article-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 12px;
+}
+
+.article-desc {
+  font-size: 13.5px;
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.article-meta-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+.read-time i {
+  margin-right: 4px;
+}
+
+.article-divider {
+  border: none;
+  height: 1px;
+  background-color: #eee;
+  margin-bottom: 15px;
+}
+
+.article-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.read-more-link {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1e3a8a;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: color 0.2s ease;
+}
+
+.read-more-link:hover {
+  color: #2563eb;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.author-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+}
+
+.author-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #ddd;
+}
+
+.author-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 992px) {
+  .articles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .articles-grid {
+    grid-template-columns: 1fr;
+  }
+  .articles-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+}
+.contact-banner-section {
+  position: relative;
+  background-image: url('src/assets/end.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 24px;
+  overflow: hidden;
+  padding: 70px 20px;
+  margin: 40px auto;
+  max-width: 1200px;
+  direction: rtl;
+  font-family: inherit;
+  text-align: center;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(18, 18, 18, 0.85);
+  z-index: 1;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 3;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-content h2 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.banner-content h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.banner-content p {
+  font-size: 14px;
+  color: #bbb;
+  margin-bottom: 25px;
+}
+
+/* زرار الرقم مع تأثير الأنيميشن عند الـ Hover */
+.phone-number-btn {
+  background-color: #ffffff;
+  color: #111111;
+  padding: 14px 35px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.phone-number-btn i {
+  color: #1e3a8a;
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.phone-number-btn:hover {
+  transform: scale(1.08) translateY(-3px);
+  background-color: #1e3a8a;
+  color: #ffffff;
+}
+
+.phone-number-btn:hover i {
+  color: #ffffff;
+}
+
+/* الأيقونات والديكورات الموزعة على البانر */
+.banner-icon {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-left-bookmark {
+  top: 30px;
+  left: 70px;
+  color: #7c3aed;
+  font-size: 35px;
+}
+
+.left-megaphone {
+  bottom: 40px;
+  left: 180px;
+  color: #f97316;
+  font-size: 45px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 50%;
+  backdrop-filter: blur(5px);
+}
+
+.top-right-palette {
+  top: 30px;
+  right: 80px;
+  color: #ec4899;
+  font-size: 35px;
+}
+
+.banner-dots-pattern {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  z-index: 2;
+  opacity: 0.3;
+}
+
+.top-dots {
+  top: 30px;
+  right: 150px;
+}
+
+.bottom-dots {
+  bottom: 30px;
+  left: 80px;
+}
+
+.banner-dots-pattern span {
+  width: 5px;
+  height: 5px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.bottom-blob-shape {
+  position: absolute;
+  bottom: 20px;
+  right: 100px;
+  width: 50px;
+  height: 40px;
+  background-color: #3b82f6;
+  border-radius: 50% 40% 60% 50%;
+  z-index: 2;
+  opacity: 0.8;
+}
+/* ================================================= */
+/* تصميم الـ Responsive لكل الـ CSS الخاص بالصفحة       */
+/* ================================================= */
+
+/* 1. الشاشات المتوسطة والتابلت (Tablet & Small Laptops: Max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+  
+  /* Hero Section */
+  .hero-main-container,
+  .features-row,
+  .landing-unique-about-container,
+  .landing-unique-partners-container,
+  .landing-unique-courses-container,
+  .featured-header,
+  .featured-grid,
+  .featured-section > div,
+  .instructors-section,
+  .testimonials-section,
+  .articles-section,
+  .contact-banner-section {
+    width: 95% !important;
+    max-width: 100% !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+  .hero-main-container,
+  .landing-unique-about-container,
+  .instructors-section,
+  .testimonials-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .hero-text-content,
+  .hero-image-box,
+  .landing-unique-text-content,
+  .landing-unique-image-placeholder,
+  .instructors-content,
+  .instructors-slider-area,
+  .testimonials-text-side,
+  .testimonials-center-image-area,
+  .testimonials-card-side {
+    width: 100% !important;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-text-content {
+    text-align: center;
+  }
+
+  .hero-text-content h1 {
+    font-size: 36px;
+    line-height: 55px;
+  }
+
+  .hero-text-content p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  /* Features Row (4 كروت) */
+  .features-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .feature-item {
+    width: 45%;
+  }
+
+  /* Courses Grid & Articles Grid (3 أعمدة تتحول إلى عمودين) */
+  .landing-unique-grid,
+  .articles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Featured Cards */
+  .featured-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .featured-card {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  /* Instructors & Testimonials alignment */
+  .instructors-section {
+    flex-direction: column-reverse;
+  }
+
+  .instructors-titles,
+  .testimonials-titles,
+  .articles-title-group,
+  .landing-unique-partners-header,
+  .featured-titles {
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .instructors-titles span::after,
+  .testimonials-titles .subtitle::after,
+  .articles-subtitle::after,
+  .landing-unique-partners-subtitle::after,
+  .featured-titles span::after {
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
+  }
+}
+
+
+/* 2. الشاشات الصغيرة والتابلت الصغير (Small Tablets & Large Phones: Max-width: 768px) */
+@media screen and (max-width: 768px) {
+  
+  .hero-text-content h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .hero-text-content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* تحويل الكروت في الـ Features لعرض عمودي */
+  .features-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-item {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  /* تحويل شبكات الكورسات والمقالات لعمود واحد */
+  .landing-unique-grid,
+  .articles-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* هيدر الكورسات */
+  .landing-unique-courses-header,
+  .articles-header,
+  .featured-header {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  /* الكروت المزدوجة والمميزة */
+  .featured-card {
+    flex-direction: column;
+    padding: 25px 20px;
+  }
+
+.card-left {
+    border-right: none;
+    border-top: 1px solid #eaeaea;
+    padding-right: 0;
+    padding-top: 20px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .card-right {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  /* الكروت العائمة في الـ Hero */
+  .float-card {
+    display: none; /* إخفاء الكروت العائمة في الموبايل لضمان عدم تداخلها مع النص والصورة */
+  }
+
+  .banner-content h2 {
+    font-size: 26px;
+  }
+
+  .banner-content h3 {
+    font-size: 22px;
+  }
+
+  .phone-number-btn {
+    font-size: 16px;
+    padding: 10px 25px;
+  }
+}
+
+
+/* 3. الهواتف المحمولة الصغيرة (Mobile Phones: Max-width: 480px) */
+@media screen and (max-width: 480px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero-page-wrapper,
+  .landing-unique-about-wrapper,
+  .landing-unique-partners-wrapper,
+  .landing-unique-courses-wrapper,
+  .featured-section,
+  .instructors-section,
+  .testimonials-section,
+  .articles-section {
+    padding: 40px 10px;
+  }
+
+  .hero-text-content h1 {
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  .hero-text-content p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .hero-btn,
+  .landing-unique-cta-btn,
+  .landing-unique-all-btn,
+  .featured-view-all-btn,
+  .instructors-btn,
+  .view-all-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  /* تصغير صور المدربين والبطاقات لتناسب شاشات الموبايل الضيقة */
+  .instructor-card {
+    width: 220px;
+    height: 340px;
+  }
+
+  .purple-bg-arch {
+    width: 260px;
+    height: 360px;
+    left: 15%;
+  }
+
+  .person-img {
+    width: 250px;
+    height: 360px;
+  }
+
+  .contact-banner-section {
+    padding: 40px 15px;
+    border-radius: 16px;
+  }
+}
